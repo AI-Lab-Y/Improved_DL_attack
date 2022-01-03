@@ -1,0 +1,90 @@
+nr=1, in_diff=(0x211, 0xa04), out_diff=(0x2800, 0x10)
+
+i is  0  neutral res is  0.9971537001897534
+i is  1  neutral res is  0.9941916747337851
+i is  2  neutral res is  0.0
+i is  3  neutral res is  0.9949799196787149
+i is  4  neutral res is  0.9807868252516011
+i is  5  neutral res is  0.9643835616438357
+i is  6  neutral res is  0.9454905847373637
+i is  7  neutral res is  0.8727097396335584
+i is  8  neutral res is  0.7624254473161034
+i is  9  neutral res is  0.0
+i is  10  neutral res is  0.5068870523415978
+i is  11  neutral res is  1.0
+i is  12  neutral res is  0.5
+i is  13  neutral res is  0.0
+i is  14  neutral res is  1.0
+i is  15  neutral res is  1.0
+i is  16  neutral res is  0.0
+i is  17  neutral res is  0.5123639960435212
+i is  18  neutral res is  0.0
+i is  19  neutral res is  0.5005107252298263
+i is  20  neutral res is  1.0
+i is  21  neutral res is  1.0
+i is  22  neutral res is  1.0
+i is  23  neutral res is  0.998001998001998
+i is  24  neutral res is  0.9962264150943396
+i is  25  neutral res is  0.0
+i is  26  neutral res is  0.9940476190476191
+i is  27  neutral res is  0.9842829076620825
+i is  28  neutral res is  0.9708171206225681
+i is  29  neutral res is  0.946911196911197
+i is  30  neutral res is  0.8764478764478765
+i is  31  neutral res is  0.7571288102261554
+the probability that a plaintext structure created from these bits is  -4.1826230336252035
+
+Process finished with exit code 0
+
+
+
+F:\softwares\Anaconda3\python.exe F:/data/PycharmProjects/Improved_DL_attack/Speck32-64/find_neutral_bits.py
+the input difference is  ('0x8020', '0x4101')
+the output difference is  ('0x40', '0x0')
+the number of encryption round is  3
+the neutrality test results are
+the bit index is  0  the neutrality is  0.0
+the bit index is  1  the neutrality is  0.25269719491728604
+the bit index is  2  the neutrality is  0.0
+the bit index is  3  the neutrality is  0.0014385039558858787
+the bit index is  4  the neutrality is  0.014864540877487413
+the bit index is  5  the neutrality is  0.46703428434428196
+the bit index is  6  the neutrality is  0.0004795013186286262
+the bit index is  7  the neutrality is  0.0
+the bit index is  8  the neutrality is  0.0
+the bit index is  9  the neutrality is  0.0014385039558858787
+the bit index is  10  the neutrality is  0.0
+the bit index is  11  the neutrality is  0.0
+the bit index is  12  the neutrality is  0.0002397506593143131
+the bit index is  13  the neutrality is  0.9932869815391993
+the bit index is  14  the neutrality is  0.0
+the bit index is  15  the neutrality is  0.7379525293694558
+the bit index is  16  the neutrality is  0.0004795013186286262
+the bit index is  17  the neutrality is  0.0
+the bit index is  18  the neutrality is  0.0
+the bit index is  19  the neutrality is  0.0
+the bit index is  20  the neutrality is  0.9932869815391993
+the bit index is  21  the neutrality is  0.0
+the bit index is  22  the neutrality is  0.9985614960441141
+the bit index is  23  the neutrality is  0.0
+the bit index is  24  the neutrality is  0.3687365140254136
+the bit index is  25  the neutrality is  0.0
+the bit index is  26  the neutrality is  0.0007192519779429394
+the bit index is  27  the neutrality is  0.013426036921601535
+the bit index is  28  the neutrality is  0.47230879884919685
+the bit index is  29  the neutrality is  0.0004795013186286262
+the bit index is  30  the neutrality is  0.7926156796931192
+the bit index is  31  the neutrality is  0.0
+
+Process finished with exit code 0
+
+
+the input difference is  ('0x8020', '0x4101')
+the output difference is  ('0x40', '0x0')
+the number of encryption round is  3
+
+the neutrality test results are 
+the bit index is  [12, 19]  the neutrality is  0.9939759036144579
+the bit index is  [14, 21]  the neutrality is  0.8755020080321285
+the bit index is  [6, 29]  the neutrality is  0.9086345381526104
+the bit index is  [0, 8, 31]  the neutrality is  0.8755020080321285

@@ -1,0 +1,2019 @@
+F:\softwares\Anaconda3\python.exe F:/data/PycharmProjects/ND-Reconstruct/Speck32-64/search_informative_connections.py
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W1018 11:50:27.772594 11752 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W1018 11:50:27.821115 11752 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W1018 11:50:27.867947 11752 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:131: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1018 11:50:27.867947 11752 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+W1018 11:50:28.196024 11752 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+2021-10-18 11:50:28.199025: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2021-10-18 11:50:28.200394: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library nvcuda.dll
+2021-10-18 11:50:28.293145: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1060 6GB major: 6 minor: 1 memoryClockRate(GHz): 1.7085
+pciBusID: 0000:01:00.0
+2021-10-18 11:50:28.293394: I tensorflow/stream_executor/platform/default/dlopen_checker_stub.cc:25] GPU libraries are statically linked, skip dlopen check.
+2021-10-18 11:50:28.294143: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2021-10-18 11:50:28.813631: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-10-18 11:50:28.813804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2021-10-18 11:50:28.813907: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2021-10-18 11:50:28.814676: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4852 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+W1018 11:50:29.195789 11752 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+The initial acc is  0.6068540006875992
+cur bit connection is  (0, 1)
+the decrease of the acc is  -4.399955272671452e-05
+cur bit connection is  (0, 2)
+the decrease of the acc is  -5.999922752375486e-05
+cur bit connection is  (0, 3)
+the decrease of the acc is  0.0002950048446654918
+cur bit connection is  (0, 4)
+the decrease of the acc is  0.00012000024318703506
+cur bit connection is  (0, 5)
+the decrease of the acc is  5.899846553802934e-05
+cur bit connection is  (0, 6)
+the decrease of the acc is  7.599771022803736e-05
+cur bit connection is  (0, 7)
+the decrease of the acc is  5.999743938445157e-05
+cur bit connection is  (0, 8)
+the decrease of the acc is  -1.800060272216797e-05
+cur bit connection is  (0, 9)
+the decrease of the acc is  -1.0997653007494002e-05
+cur bit connection is  (0, 10)
+the decrease of the acc is  -0.0003230029344558627
+cur bit connection is  (0, 11)
+the decrease of the acc is  0.0001890015602111772
+cur bit connection is  (0, 12)
+the decrease of the acc is  -0.00045100152492527634
+cur bit connection is  (0, 13)
+the decrease of the acc is  -0.00025500178337101165
+cur bit connection is  (0, 14)
+the decrease of the acc is  -0.00013199985027323446
+cur bit connection is  (0, 15)
+the decrease of the acc is  1.700043678276586e-05
+cur bit connection is  (0, 16)
+the decrease of the acc is  0.00022999703884130085
+cur bit connection is  (0, 17)
+the decrease of the acc is  0.00013799488544463667
+cur bit connection is  (0, 18)
+the decrease of the acc is  -0.00014899909496302044
+cur bit connection is  (0, 19)
+the decrease of the acc is  0.00021500051021572375
+cur bit connection is  (0, 20)
+the decrease of the acc is  -0.00040499866008758545
+cur bit connection is  (0, 21)
+the decrease of the acc is  0.0009990018606186313
+cur bit connection is  (0, 22)
+the decrease of the acc is  1.1000037193342749e-05
+cur bit connection is  (0, 23)
+the decrease of the acc is  0.00031700015068059084
+cur bit connection is  (0, 24)
+the decrease of the acc is  2.6996731758099912e-05
+cur bit connection is  (0, 25)
+the decrease of the acc is  -0.00041999936103820357
+cur bit connection is  (0, 26)
+the decrease of the acc is  -0.00017699956893924007
+cur bit connection is  (0, 27)
+the decrease of the acc is  0.0007459992170333329
+cur bit connection is  (0, 28)
+the decrease of the acc is  -0.000850997567176881
+cur bit connection is  (0, 29)
+the decrease of the acc is  8.599460124969482e-05
+cur bit connection is  (0, 30)
+the decrease of the acc is  -0.00013999760150917862
+cur bit connection is  (0, 31)
+the decrease of the acc is  -7.899940013889051e-05
+cur bit connection is  (1, 2)
+the decrease of the acc is  -0.00014200091361993294
+cur bit connection is  (1, 3)
+the decrease of the acc is  -0.00018800675868990702
+cur bit connection is  (1, 4)
+the decrease of the acc is  0.0001219999790191828
+cur bit connection is  (1, 5)
+the decrease of the acc is  -0.00035100042819979915
+cur bit connection is  (1, 6)
+the decrease of the acc is  -1.300275325777367e-05
+cur bit connection is  (1, 7)
+the decrease of the acc is  -1.9000768661459055e-05
+cur bit connection is  (1, 8)
+the decrease of the acc is  8.499801158912135e-05
+cur bit connection is  (1, 9)
+the decrease of the acc is  0.0002239930629730491
+cur bit connection is  (1, 10)
+the decrease of the acc is  0.00024100244045255348
+cur bit connection is  (1, 11)
+the decrease of the acc is  -0.0001229965686798673
+cur bit connection is  (1, 12)
+the decrease of the acc is  -0.00034099638462059545
+cur bit connection is  (1, 13)
+the decrease of the acc is  0.00021999835968011805
+cur bit connection is  (1, 14)
+the decrease of the acc is  0.00046999692916860347
+cur bit connection is  (1, 15)
+the decrease of the acc is  -4.7001242637678686e-05
+cur bit connection is  (1, 16)
+the decrease of the acc is  4.7000646591244255e-05
+cur bit connection is  (1, 17)
+the decrease of the acc is  0.00012500166893003595
+cur bit connection is  (1, 18)
+the decrease of the acc is  -0.000243996381759648
+cur bit connection is  (1, 19)
+the decrease of the acc is  -0.0001660060882568981
+cur bit connection is  (1, 20)
+the decrease of the acc is  -0.00025499820709229404
+cur bit connection is  (1, 21)
+the decrease of the acc is  -6.29985332489813e-05
+cur bit connection is  (1, 22)
+the decrease of the acc is  0.0001040005683898837
+cur bit connection is  (1, 23)
+the decrease of the acc is  0.00030099987983700505
+cur bit connection is  (1, 24)
+the decrease of the acc is  -8.899688720709342e-05
+cur bit connection is  (1, 25)
+the decrease of the acc is  1.7006993293766648e-05
+cur bit connection is  (1, 26)
+the decrease of the acc is  -0.0004249995946884466
+cur bit connection is  (1, 27)
+the decrease of the acc is  -0.0005570018291473078
+cur bit connection is  (1, 28)
+the decrease of the acc is  0.000599002242088309
+cur bit connection is  (1, 29)
+the decrease of the acc is  0.0002539992332458718
+cur bit connection is  (1, 30)
+the decrease of the acc is  0.00029700219631190183
+cur bit connection is  (1, 31)
+the decrease of the acc is  -0.0001480013132095781
+cur bit connection is  (2, 3)
+the decrease of the acc is  0.0005530035495757701
+cur bit connection is  (2, 4)
+the decrease of the acc is  0.0011770015954971624
+cur bit connection is  (2, 5)
+the decrease of the acc is  3.499805927276167e-05
+cur bit connection is  (2, 6)
+the decrease of the acc is  0.00013899922370919082
+cur bit connection is  (2, 7)
+the decrease of the acc is  6.500065326686677e-05
+cur bit connection is  (2, 8)
+the decrease of the acc is  -0.00013599932193752995
+cur bit connection is  (2, 9)
+the decrease of the acc is  -0.00010899782180784356
+cur bit connection is  (2, 10)
+the decrease of the acc is  -0.0002119970321655673
+cur bit connection is  (2, 11)
+the decrease of the acc is  7.699966430663174e-05
+cur bit connection is  (2, 12)
+the decrease of the acc is  -0.00025199949741361305
+cur bit connection is  (2, 13)
+the decrease of the acc is  0.0002970033884048817
+cur bit connection is  (2, 14)
+the decrease of the acc is  0.0003070002794265392
+cur bit connection is  (2, 15)
+the decrease of the acc is  -1.19209286886246e-09
+cur bit connection is  (2, 16)
+the decrease of the acc is  0.00021200120449071935
+cur bit connection is  (2, 17)
+the decrease of the acc is  0.00025200247764589623
+cur bit connection is  (2, 18)
+the decrease of the acc is  0.0008960014581680387
+cur bit connection is  (2, 19)
+the decrease of the acc is  0.0006980031728743841
+cur bit connection is  (2, 20)
+the decrease of the acc is  0.0005309969186783059
+cur bit connection is  (2, 21)
+the decrease of the acc is  5.500078201292613e-05
+cur bit connection is  (2, 22)
+the decrease of the acc is  -2.2998452186562268e-05
+cur bit connection is  (2, 23)
+the decrease of the acc is  7.699847221376288e-05
+cur bit connection is  (2, 24)
+the decrease of the acc is  -9.400010108950863e-05
+cur bit connection is  (2, 25)
+the decrease of the acc is  0.0001789957284926702
+cur bit connection is  (2, 26)
+the decrease of the acc is  9.799838066104627e-05
+cur bit connection is  (2, 27)
+the decrease of the acc is  -6.39975070952925e-05
+cur bit connection is  (2, 28)
+the decrease of the acc is  0.0001180005073547763
+cur bit connection is  (2, 29)
+the decrease of the acc is  -0.00021299839019783828
+cur bit connection is  (2, 30)
+the decrease of the acc is  0.00025099754333490765
+cur bit connection is  (2, 31)
+the decrease of the acc is  1.8000006675733538e-05
+cur bit connection is  (3, 4)
+the decrease of the acc is  0.001726997494697624
+cur bit connection is  (3, 5)
+the decrease of the acc is  0.0022560018301009954
+cur bit connection is  (3, 6)
+the decrease of the acc is  -9.600043296820182e-05
+cur bit connection is  (3, 7)
+the decrease of the acc is  0.00018200039863580653
+cur bit connection is  (3, 8)
+the decrease of the acc is  -1.999139785824333e-06
+cur bit connection is  (3, 9)
+the decrease of the acc is  -0.00010499894618987149
+cur bit connection is  (3, 10)
+the decrease of the acc is  0.00016700148582460272
+cur bit connection is  (3, 11)
+the decrease of the acc is  0.0005019998550415128
+cur bit connection is  (3, 12)
+the decrease of the acc is  0.001754002571105917
+cur bit connection is  (3, 13)
+the decrease of the acc is  0.0009049987792968395
+cur bit connection is  (3, 14)
+the decrease of the acc is  9.500443935395175e-05
+cur bit connection is  (3, 15)
+the decrease of the acc is  -0.00011900484561921942
+cur bit connection is  (3, 16)
+the decrease of the acc is  0.00015400052070613235
+cur bit connection is  (3, 17)
+the decrease of the acc is  0.00025499999523159733
+cur bit connection is  (3, 18)
+the decrease of the acc is  0.0012239962816238403
+cur bit connection is  (3, 19)
+the decrease of the acc is  0.003420999050140372
+cur bit connection is  (3, 20)
+the decrease of the acc is  0.0016460031270980613
+cur bit connection is  (3, 21)
+the decrease of the acc is  0.00149800002574918
+cur bit connection is  (3, 22)
+the decrease of the acc is  -3.199815750121182e-05
+cur bit connection is  (3, 23)
+the decrease of the acc is  -0.000151997208595267
+cur bit connection is  (3, 24)
+the decrease of the acc is  -8.100032806390711e-05
+cur bit connection is  (3, 25)
+the decrease of the acc is  0.0005470025539398016
+cur bit connection is  (3, 26)
+the decrease of the acc is  0.0012139999866486173
+cur bit connection is  (3, 27)
+the decrease of the acc is  0.0007429993152618941
+cur bit connection is  (3, 28)
+the decrease of the acc is  0.00216400206089018
+cur bit connection is  (3, 29)
+the decrease of the acc is  0.0013049995899200306
+cur bit connection is  (3, 30)
+the decrease of the acc is  0.00014499843120574507
+cur bit connection is  (3, 31)
+the decrease of the acc is  4.4001340866128835e-05
+cur bit connection is  (4, 5)
+the decrease of the acc is  0.02454900026321416
+cur bit connection is  (4, 6)
+the decrease of the acc is  -3.60023975372048e-05
+cur bit connection is  (4, 7)
+the decrease of the acc is  0.00014399886131288842
+cur bit connection is  (4, 8)
+the decrease of the acc is  0.00022500336170194757
+cur bit connection is  (4, 9)
+the decrease of the acc is  0.0006690043210982877
+cur bit connection is  (4, 10)
+the decrease of the acc is  0.0019560033082962613
+cur bit connection is  (4, 11)
+the decrease of the acc is  0.009357998967170822
+cur bit connection is  (4, 12)
+the decrease of the acc is  0.025745996832847617
+cur bit connection is  (4, 13)
+the decrease of the acc is  0.0393509966135025
+cur bit connection is  (4, 14)
+the decrease of the acc is  0.01865200042724613
+cur bit connection is  (4, 15)
+the decrease of the acc is  -0.00015900135040280983
+cur bit connection is  (4, 16)
+the decrease of the acc is  -7.800161838533715e-05
+cur bit connection is  (4, 17)
+the decrease of the acc is  0.0002930003404617576
+cur bit connection is  (4, 18)
+the decrease of the acc is  0.002305998802185072
+cur bit connection is  (4, 19)
+the decrease of the acc is  0.005946996212005562
+cur bit connection is  (4, 20)
+the decrease of the acc is  0.05394699692726135
+cur bit connection is  (4, 21)
+the decrease of the acc is  0.02450999975204471
+cur bit connection is  (4, 22)
+the decrease of the acc is  0.00015499711036681685
+cur bit connection is  (4, 23)
+the decrease of the acc is  0.00028700113296509233
+cur bit connection is  (4, 24)
+the decrease of the acc is  0.0006819981336593228
+cur bit connection is  (4, 25)
+the decrease of the acc is  0.003765000700950649
+cur bit connection is  (4, 26)
+the decrease of the acc is  0.01931200146675116
+cur bit connection is  (4, 27)
+the decrease of the acc is  0.03357799649238591
+cur bit connection is  (4, 28)
+the decrease of the acc is  0.03175400078296653
+cur bit connection is  (4, 29)
+the decrease of the acc is  0.03865599811077125
+cur bit connection is  (4, 30)
+the decrease of the acc is  0.018782000541686994
+cur bit connection is  (4, 31)
+the decrease of the acc is  -0.00012900173664087689
+cur bit connection is  (5, 6)
+the decrease of the acc is  0.00019699871540068692
+cur bit connection is  (5, 7)
+the decrease of the acc is  0.00033399581909177023
+cur bit connection is  (5, 8)
+the decrease of the acc is  0.00019099950790413267
+cur bit connection is  (5, 9)
+the decrease of the acc is  0.00018100023269651544
+cur bit connection is  (5, 10)
+the decrease of the acc is  0.0009260010719299716
+cur bit connection is  (5, 11)
+the decrease of the acc is  0.006171004176139805
+cur bit connection is  (5, 12)
+the decrease of the acc is  0.02182400286197661
+cur bit connection is  (5, 13)
+the decrease of the acc is  0.02421700298786167
+cur bit connection is  (5, 14)
+the decrease of the acc is  0.04377099871635437
+cur bit connection is  (5, 15)
+the decrease of the acc is  -3.100037574765846e-05
+cur bit connection is  (5, 16)
+the decrease of the acc is  -6.900310516355646e-05
+cur bit connection is  (5, 17)
+the decrease of the acc is  0.0002779966592788563
+cur bit connection is  (5, 18)
+the decrease of the acc is  0.005472002625465322
+cur bit connection is  (5, 19)
+the decrease of the acc is  0.009777000546455361
+cur bit connection is  (5, 20)
+the decrease of the acc is  0.024620997905731246
+cur bit connection is  (5, 21)
+the decrease of the acc is  0.05478000342845912
+cur bit connection is  (5, 22)
+the decrease of the acc is  0.00016600072383876618
+cur bit connection is  (5, 23)
+the decrease of the acc is  0.0006880015134811401
+cur bit connection is  (5, 24)
+the decrease of the acc is  0.000608998537063643
+cur bit connection is  (5, 25)
+the decrease of the acc is  0.002565998435020367
+cur bit connection is  (5, 26)
+the decrease of the acc is  0.009649997949600309
+cur bit connection is  (5, 27)
+the decrease of the acc is  0.025209000110626212
+cur bit connection is  (5, 28)
+the decrease of the acc is  0.04129000008106232
+cur bit connection is  (5, 29)
+the decrease of the acc is  0.024167998433113014
+cur bit connection is  (5, 30)
+the decrease of the acc is  0.04352700352668759
+cur bit connection is  (5, 31)
+the decrease of the acc is  -4.800081253053534e-05
+cur bit connection is  (6, 7)
+the decrease of the acc is  0.0004640012979506558
+cur bit connection is  (6, 8)
+the decrease of the acc is  -8.002519607530623e-06
+cur bit connection is  (6, 9)
+the decrease of the acc is  -0.0001109969615936679
+cur bit connection is  (6, 10)
+the decrease of the acc is  -0.00048000395297997933
+cur bit connection is  (6, 11)
+the decrease of the acc is  0.0002189970016479581
+cur bit connection is  (6, 12)
+the decrease of the acc is  -0.0003200000524521407
+cur bit connection is  (6, 13)
+the decrease of the acc is  -0.0003899991512298362
+cur bit connection is  (6, 14)
+the decrease of the acc is  1.0998845100362864e-05
+cur bit connection is  (6, 15)
+the decrease of the acc is  2.8996467590247654e-05
+cur bit connection is  (6, 16)
+the decrease of the acc is  0.00014200210571291283
+cur bit connection is  (6, 17)
+the decrease of the acc is  -7.100045680996647e-05
+cur bit connection is  (6, 18)
+the decrease of the acc is  0.0001459974050521673
+cur bit connection is  (6, 19)
+the decrease of the acc is  0.00016699790954588511
+cur bit connection is  (6, 20)
+the decrease of the acc is  0.000767998695373473
+cur bit connection is  (6, 21)
+the decrease of the acc is  0.00023799598217011386
+cur bit connection is  (6, 22)
+the decrease of the acc is  0.000432003140449555
+cur bit connection is  (6, 23)
+the decrease of the acc is  0.00044700443744660756
+cur bit connection is  (6, 24)
+the decrease of the acc is  -8.600175380701902e-05
+cur bit connection is  (6, 25)
+the decrease of the acc is  -0.0005099993944168713
+cur bit connection is  (6, 26)
+the decrease of the acc is  -9.299755096436879e-05
+cur bit connection is  (6, 27)
+the decrease of the acc is  0.00045299828052525193
+cur bit connection is  (6, 28)
+the decrease of the acc is  -0.00011500000953668099
+cur bit connection is  (6, 29)
+the decrease of the acc is  0.0003339993953703768
+cur bit connection is  (6, 30)
+the decrease of the acc is  0.0006080019474029585
+cur bit connection is  (6, 31)
+the decrease of the acc is  -8.399784564971924e-05
+cur bit connection is  (7, 8)
+the decrease of the acc is  0.00022900402545922294
+cur bit connection is  (7, 9)
+the decrease of the acc is  0.00017199397087097612
+cur bit connection is  (7, 10)
+the decrease of the acc is  4.8002004623404204e-05
+cur bit connection is  (7, 11)
+the decrease of the acc is  -0.00023499965667728162
+cur bit connection is  (7, 12)
+the decrease of the acc is  -0.00019499719142912486
+cur bit connection is  (7, 13)
+the decrease of the acc is  -0.00037200212478638583
+cur bit connection is  (7, 14)
+the decrease of the acc is  0.0012940001487732333
+cur bit connection is  (7, 15)
+the decrease of the acc is  -1.9997358322143555e-05
+cur bit connection is  (7, 16)
+the decrease of the acc is  -9.99987125394064e-06
+cur bit connection is  (7, 17)
+the decrease of the acc is  1.999616622916367e-05
+cur bit connection is  (7, 18)
+the decrease of the acc is  -0.00032199859619141957
+cur bit connection is  (7, 19)
+the decrease of the acc is  0.0006010025739670022
+cur bit connection is  (7, 20)
+the decrease of the acc is  -0.0004509991407394276
+cur bit connection is  (7, 21)
+the decrease of the acc is  0.00019700288772583896
+cur bit connection is  (7, 22)
+the decrease of the acc is  0.00034200012683860415
+cur bit connection is  (7, 23)
+the decrease of the acc is  0.001022000908851628
+cur bit connection is  (7, 24)
+the decrease of the acc is  2.499699592595217e-05
+cur bit connection is  (7, 25)
+the decrease of the acc is  -0.0007030081748962136
+cur bit connection is  (7, 26)
+the decrease of the acc is  -0.0006559950113296242
+cur bit connection is  (7, 27)
+the decrease of the acc is  0.0007330042123794289
+cur bit connection is  (7, 28)
+the decrease of the acc is  0.0007720011472702737
+cur bit connection is  (7, 29)
+the decrease of the acc is  0.0005600005388259888
+cur bit connection is  (7, 30)
+the decrease of the acc is  0.000660001635551466
+cur bit connection is  (7, 31)
+the decrease of the acc is  5.699872970577058e-05
+cur bit connection is  (8, 9)
+the decrease of the acc is  -7.799983024603385e-05
+cur bit connection is  (8, 10)
+the decrease of the acc is  0.00020100176334381104
+cur bit connection is  (8, 11)
+the decrease of the acc is  0.00022599995136263207
+cur bit connection is  (8, 12)
+the decrease of the acc is  0.0007510012388229903
+cur bit connection is  (8, 13)
+the decrease of the acc is  -0.00021499812602998603
+cur bit connection is  (8, 14)
+the decrease of the acc is  -7.400095462806178e-05
+cur bit connection is  (8, 15)
+the decrease of the acc is  -4.60034608840143e-05
+cur bit connection is  (8, 16)
+the decrease of the acc is  -0.00018600523471834496
+cur bit connection is  (8, 17)
+the decrease of the acc is  -1.699984073644245e-05
+cur bit connection is  (8, 18)
+the decrease of the acc is  -3.399968147277388e-05
+cur bit connection is  (8, 19)
+the decrease of the acc is  0.00032800197601312586
+cur bit connection is  (8, 20)
+the decrease of the acc is  0.0005400013923645419
+cur bit connection is  (8, 21)
+the decrease of the acc is  0.0003519982099533525
+cur bit connection is  (8, 22)
+the decrease of the acc is  0.00017799973487853116
+cur bit connection is  (8, 23)
+the decrease of the acc is  -0.00022300124168395108
+cur bit connection is  (8, 24)
+the decrease of the acc is  0.0001699984073638694
+cur bit connection is  (8, 25)
+the decrease of the acc is  0.000730000138282838
+cur bit connection is  (8, 26)
+the decrease of the acc is  5.499899387362284e-05
+cur bit connection is  (8, 27)
+the decrease of the acc is  0.0008359968662262629
+cur bit connection is  (8, 28)
+the decrease of the acc is  0.00029299974441532317
+cur bit connection is  (8, 29)
+the decrease of the acc is  -0.00014200389385221612
+cur bit connection is  (8, 30)
+the decrease of the acc is  0.0003239941596984153
+cur bit connection is  (8, 31)
+the decrease of the acc is  -8.300185203558019e-05
+cur bit connection is  (9, 10)
+the decrease of the acc is  0.0005400007963181075
+cur bit connection is  (9, 11)
+the decrease of the acc is  0.0006590026617049327
+cur bit connection is  (9, 12)
+the decrease of the acc is  0.0014739972352981745
+cur bit connection is  (9, 13)
+the decrease of the acc is  0.0005210000276566484
+cur bit connection is  (9, 14)
+the decrease of the acc is  0.0005680036544799538
+cur bit connection is  (9, 15)
+the decrease of the acc is  -0.00019000053405759942
+cur bit connection is  (9, 16)
+the decrease of the acc is  -6.299912929541573e-05
+cur bit connection is  (9, 17)
+the decrease of the acc is  -0.00023299992084502286
+cur bit connection is  (9, 18)
+the decrease of the acc is  -0.00019300162792212916
+cur bit connection is  (9, 19)
+the decrease of the acc is  0.00021900177001954457
+cur bit connection is  (9, 20)
+the decrease of the acc is  0.0008019989728927923
+cur bit connection is  (9, 21)
+the decrease of the acc is  -0.00047499358654023993
+cur bit connection is  (9, 22)
+the decrease of the acc is  -0.0001410013437270763
+cur bit connection is  (9, 23)
+the decrease of the acc is  -8.499860763555578e-05
+cur bit connection is  (9, 24)
+the decrease of the acc is  0.0004839986562729104
+cur bit connection is  (9, 25)
+the decrease of the acc is  0.0010439968109130504
+cur bit connection is  (9, 26)
+the decrease of the acc is  0.00022100329399110663
+cur bit connection is  (9, 27)
+the decrease of the acc is  0.0015009987354278609
+cur bit connection is  (9, 28)
+the decrease of the acc is  0.0006169962882995872
+cur bit connection is  (9, 29)
+the decrease of the acc is  0.0005060029029845259
+cur bit connection is  (9, 30)
+the decrease of the acc is  -6.699800491338781e-05
+cur bit connection is  (9, 31)
+the decrease of the acc is  -6.30003213882846e-05
+cur bit connection is  (10, 11)
+the decrease of the acc is  0.004015995860099819
+cur bit connection is  (10, 12)
+the decrease of the acc is  0.003386000394821176
+cur bit connection is  (10, 13)
+the decrease of the acc is  0.0015970015525818004
+cur bit connection is  (10, 14)
+the decrease of the acc is  0.0004780012369155484
+cur bit connection is  (10, 15)
+the decrease of the acc is  -7.500588893893934e-05
+cur bit connection is  (10, 16)
+the decrease of the acc is  -0.00012500286102301583
+cur bit connection is  (10, 17)
+the decrease of the acc is  -0.00032199859619141957
+cur bit connection is  (10, 18)
+the decrease of the acc is  -0.0003880000114441229
+cur bit connection is  (10, 19)
+the decrease of the acc is  -0.00023400425910946598
+cur bit connection is  (10, 20)
+the decrease of the acc is  0.0021649998426437334
+cur bit connection is  (10, 21)
+the decrease of the acc is  0.0007510024309158592
+cur bit connection is  (10, 22)
+the decrease of the acc is  -9.799659252163195e-05
+cur bit connection is  (10, 23)
+the decrease of the acc is  9.000122547142553e-05
+cur bit connection is  (10, 24)
+the decrease of the acc is  0.0007269954681395907
+cur bit connection is  (10, 25)
+the decrease of the acc is  0.002709998488426235
+cur bit connection is  (10, 26)
+the decrease of the acc is  0.001614004373550415
+cur bit connection is  (10, 27)
+the decrease of the acc is  0.002084997892379703
+cur bit connection is  (10, 28)
+the decrease of the acc is  0.0039800047874450906
+cur bit connection is  (10, 29)
+the decrease of the acc is  0.0022060000896453325
+cur bit connection is  (10, 30)
+the decrease of the acc is  0.0011109954118728727
+cur bit connection is  (10, 31)
+the decrease of the acc is  -0.00011300146579740211
+cur bit connection is  (11, 12)
+the decrease of the acc is  0.01584999859333036
+cur bit connection is  (11, 13)
+the decrease of the acc is  0.00807200014591214
+cur bit connection is  (11, 14)
+the decrease of the acc is  0.005199999213218676
+cur bit connection is  (11, 15)
+the decrease of the acc is  7.200539112095505e-05
+cur bit connection is  (11, 16)
+the decrease of the acc is  -9.799838066093525e-05
+cur bit connection is  (11, 17)
+the decrease of the acc is  0.00026800394058223986
+cur bit connection is  (11, 18)
+the decrease of the acc is  0.0009249985218048318
+cur bit connection is  (11, 19)
+the decrease of the acc is  0.00227999925613398
+cur bit connection is  (11, 20)
+the decrease of the acc is  0.008808999657630934
+cur bit connection is  (11, 21)
+the decrease of the acc is  0.007103998064994843
+cur bit connection is  (11, 22)
+the decrease of the acc is  0.00016300082206721633
+cur bit connection is  (11, 23)
+the decrease of the acc is  0.0002939987182617454
+cur bit connection is  (11, 24)
+the decrease of the acc is  0.0020340037345886186
+cur bit connection is  (11, 25)
+the decrease of the acc is  0.008563002943992593
+cur bit connection is  (11, 26)
+the decrease of the acc is  0.013456997871398979
+cur bit connection is  (11, 27)
+the decrease of the acc is  0.01442600309848785
+cur bit connection is  (11, 28)
+the decrease of the acc is  0.01511800050735479
+cur bit connection is  (11, 29)
+the decrease of the acc is  0.008905996084213275
+cur bit connection is  (11, 30)
+the decrease of the acc is  0.004717993140220589
+cur bit connection is  (11, 31)
+the decrease of the acc is  4.800498485568738e-05
+cur bit connection is  (12, 13)
+the decrease of the acc is  0.02230599761009211
+cur bit connection is  (12, 14)
+the decrease of the acc is  0.013193996548652609
+cur bit connection is  (12, 15)
+the decrease of the acc is  -9.799957275391513e-05
+cur bit connection is  (12, 16)
+the decrease of the acc is  -7.500410079952502e-05
+cur bit connection is  (12, 17)
+the decrease of the acc is  0.0005459982156753584
+cur bit connection is  (12, 18)
+the decrease of the acc is  0.004871004223823583
+cur bit connection is  (12, 19)
+the decrease of the acc is  0.009203997850418144
+cur bit connection is  (12, 20)
+the decrease of the acc is  0.02494599997997282
+cur bit connection is  (12, 21)
+the decrease of the acc is  0.02227999806404113
+cur bit connection is  (12, 22)
+the decrease of the acc is  0.00016199946403505638
+cur bit connection is  (12, 23)
+the decrease of the acc is  0.0003789997100830389
+cur bit connection is  (12, 24)
+the decrease of the acc is  0.0011000019311904197
+cur bit connection is  (12, 25)
+the decrease of the acc is  0.012455003857612668
+cur bit connection is  (12, 26)
+the decrease of the acc is  0.025340002775192216
+cur bit connection is  (12, 27)
+the decrease of the acc is  0.02845500051975247
+cur bit connection is  (12, 28)
+the decrease of the acc is  0.04174699842929841
+cur bit connection is  (12, 29)
+the decrease of the acc is  0.022298995852470416
+cur bit connection is  (12, 30)
+the decrease of the acc is  0.013269998431205687
+cur bit connection is  (12, 31)
+the decrease of the acc is  -0.00022900104522705078
+cur bit connection is  (13, 14)
+the decrease of the acc is  0.022238998413085964
+cur bit connection is  (13, 15)
+the decrease of the acc is  -0.00010500013828274035
+cur bit connection is  (13, 16)
+the decrease of the acc is  0.00012599885463715488
+cur bit connection is  (13, 17)
+the decrease of the acc is  0.0004740017652511419
+cur bit connection is  (13, 18)
+the decrease of the acc is  0.0009719967842102273
+cur bit connection is  (13, 19)
+the decrease of the acc is  0.0031679999828339023
+cur bit connection is  (13, 20)
+the decrease of the acc is  0.0382839983701706
+cur bit connection is  (13, 21)
+the decrease of the acc is  0.02395299911499016
+cur bit connection is  (13, 22)
+the decrease of the acc is  9.89973545074685e-05
+cur bit connection is  (13, 23)
+the decrease of the acc is  0.0005529993772507291
+cur bit connection is  (13, 24)
+the decrease of the acc is  0.0008680033683777788
+cur bit connection is  (13, 25)
+the decrease of the acc is  0.0029280030727385498
+cur bit connection is  (13, 26)
+the decrease of the acc is  0.018444005250930706
+cur bit connection is  (13, 27)
+the decrease of the acc is  0.03382899940013884
+cur bit connection is  (13, 28)
+the decrease of the acc is  0.03189399957656869
+cur bit connection is  (13, 29)
+the decrease of the acc is  0.053326002359390334
+cur bit connection is  (13, 30)
+the decrease of the acc is  0.022063002586364733
+cur bit connection is  (13, 31)
+the decrease of the acc is  -0.0001400023698807651
+cur bit connection is  (14, 15)
+the decrease of the acc is  -0.00013600051403050983
+cur bit connection is  (14, 16)
+the decrease of the acc is  -0.0001550048589706865
+cur bit connection is  (14, 17)
+the decrease of the acc is  0.00032399892807000175
+cur bit connection is  (14, 18)
+the decrease of the acc is  -0.0002849972248076815
+cur bit connection is  (14, 19)
+the decrease of the acc is  0.0007350003719330811
+cur bit connection is  (14, 20)
+the decrease of the acc is  0.018839998841285732
+cur bit connection is  (14, 21)
+the decrease of the acc is  0.04395100355148318
+cur bit connection is  (14, 22)
+the decrease of the acc is  0.0005250000953674894
+cur bit connection is  (14, 23)
+the decrease of the acc is  0.001045997738838178
+cur bit connection is  (14, 24)
+the decrease of the acc is  0.0004399967193603471
+cur bit connection is  (14, 25)
+the decrease of the acc is  0.0024919992685318304
+cur bit connection is  (14, 26)
+the decrease of the acc is  0.006942998766899189
+cur bit connection is  (14, 27)
+the decrease of the acc is  0.021154999136924757
+cur bit connection is  (14, 28)
+the decrease of the acc is  0.03089399933815007
+cur bit connection is  (14, 29)
+the decrease of the acc is  0.022139002680778508
+cur bit connection is  (14, 30)
+the decrease of the acc is  0.04511799991130827
+cur bit connection is  (14, 31)
+the decrease of the acc is  -4.6004056930559756e-05
+cur bit connection is  (15, 16)
+the decrease of the acc is  -0.00019900023937224898
+cur bit connection is  (15, 17)
+the decrease of the acc is  -0.00024300277233124667
+cur bit connection is  (15, 18)
+the decrease of the acc is  6.999790668493766e-05
+cur bit connection is  (15, 19)
+the decrease of the acc is  0.0005209958553314964
+cur bit connection is  (15, 20)
+the decrease of the acc is  -0.00040500164031986863
+cur bit connection is  (15, 21)
+the decrease of the acc is  -0.0002600002288818404
+cur bit connection is  (15, 22)
+the decrease of the acc is  -0.00024699985980991546
+cur bit connection is  (15, 23)
+the decrease of the acc is  -0.00034599900245668724
+cur bit connection is  (15, 24)
+the decrease of the acc is  0.00012000024318692404
+cur bit connection is  (15, 25)
+the decrease of the acc is  -0.0001600027084350808
+cur bit connection is  (15, 26)
+the decrease of the acc is  0.0003080010414122647
+cur bit connection is  (15, 27)
+the decrease of the acc is  0.00033200085163120896
+cur bit connection is  (15, 28)
+the decrease of the acc is  -0.00013599693775179222
+cur bit connection is  (15, 29)
+the decrease of the acc is  -0.000458002686500536
+cur bit connection is  (15, 30)
+the decrease of the acc is  -0.0001369917392730624
+cur bit connection is  (15, 31)
+the decrease of the acc is  -0.00011300206184383654
+cur bit connection is  (16, 17)
+the decrease of the acc is  -9.999275207506209e-06
+cur bit connection is  (16, 18)
+the decrease of the acc is  0.00038800239562997163
+cur bit connection is  (16, 19)
+the decrease of the acc is  0.0001329994201659801
+cur bit connection is  (16, 20)
+the decrease of the acc is  -0.0001660007238388772
+cur bit connection is  (16, 21)
+the decrease of the acc is  -0.0001690000295638816
+cur bit connection is  (16, 22)
+the decrease of the acc is  -8.900046348570001e-05
+cur bit connection is  (16, 23)
+the decrease of the acc is  -0.00019000351428977158
+cur bit connection is  (16, 24)
+the decrease of the acc is  -0.0001120007038116766
+cur bit connection is  (16, 25)
+the decrease of the acc is  -3.600120544433594e-05
+cur bit connection is  (16, 26)
+the decrease of the acc is  -0.00012700080871586028
+cur bit connection is  (16, 27)
+the decrease of the acc is  0.0002680015563963911
+cur bit connection is  (16, 28)
+the decrease of the acc is  -0.0005510002374649048
+cur bit connection is  (16, 29)
+the decrease of the acc is  -9.936094284013208e-07
+cur bit connection is  (16, 30)
+the decrease of the acc is  -0.0006179982423782926
+cur bit connection is  (16, 31)
+the decrease of the acc is  -6.100058555602583e-05
+cur bit connection is  (17, 18)
+the decrease of the acc is  0.0003260004520416748
+cur bit connection is  (17, 19)
+the decrease of the acc is  0.0008770006895065796
+cur bit connection is  (17, 20)
+the decrease of the acc is  3.39967012404907e-05
+cur bit connection is  (17, 21)
+the decrease of the acc is  0.0002659970521926569
+cur bit connection is  (17, 22)
+the decrease of the acc is  -0.0001189994812010875
+cur bit connection is  (17, 23)
+the decrease of the acc is  -0.00020600199699405408
+cur bit connection is  (17, 24)
+the decrease of the acc is  -0.000130001902580279
+cur bit connection is  (17, 25)
+the decrease of the acc is  -0.00012199938297274837
+cur bit connection is  (17, 26)
+the decrease of the acc is  -0.00017299950122839913
+cur bit connection is  (17, 27)
+the decrease of the acc is  0.0006379973888397394
+cur bit connection is  (17, 28)
+the decrease of the acc is  0.0009339988231659158
+cur bit connection is  (17, 29)
+the decrease of the acc is  0.0010229998826980502
+cur bit connection is  (17, 30)
+the decrease of the acc is  0.000314000248909041
+cur bit connection is  (17, 31)
+the decrease of the acc is  -7.500350475320161e-05
+cur bit connection is  (18, 19)
+the decrease of the acc is  0.005662999749183606
+cur bit connection is  (18, 20)
+the decrease of the acc is  0.002147004008293152
+cur bit connection is  (18, 21)
+the decrease of the acc is  0.0051819998025893765
+cur bit connection is  (18, 22)
+the decrease of the acc is  -0.00014799952507016378
+cur bit connection is  (18, 23)
+the decrease of the acc is  -0.0002209991216659546
+cur bit connection is  (18, 24)
+the decrease of the acc is  -0.00040500044822688874
+cur bit connection is  (18, 25)
+the decrease of the acc is  -8.699655532840023e-05
+cur bit connection is  (18, 26)
+the decrease of the acc is  0.0011750000715256004
+cur bit connection is  (18, 27)
+the decrease of the acc is  0.002032999992370499
+cur bit connection is  (18, 28)
+the decrease of the acc is  0.00538700044155116
+cur bit connection is  (18, 29)
+the decrease of the acc is  0.0005280017852783425
+cur bit connection is  (18, 30)
+the decrease of the acc is  0.00046099901199336824
+cur bit connection is  (18, 31)
+the decrease of the acc is  -0.0001529973745346691
+cur bit connection is  (19, 20)
+the decrease of the acc is  0.00667499899864199
+cur bit connection is  (19, 21)
+the decrease of the acc is  0.009820995926857035
+cur bit connection is  (19, 22)
+the decrease of the acc is  0.00022999703884130085
+cur bit connection is  (19, 23)
+the decrease of the acc is  0.00029400169849391755
+cur bit connection is  (19, 24)
+the decrease of the acc is  -0.00019899666309353137
+cur bit connection is  (19, 25)
+the decrease of the acc is  0.0009380012750626054
+cur bit connection is  (19, 26)
+the decrease of the acc is  0.002274999022483848
+cur bit connection is  (19, 27)
+the decrease of the acc is  0.005316001176834062
+cur bit connection is  (19, 28)
+the decrease of the acc is  0.008082998991012502
+cur bit connection is  (19, 29)
+the decrease of the acc is  0.002601997256278965
+cur bit connection is  (19, 30)
+the decrease of the acc is  0.0006060028076171342
+cur bit connection is  (19, 31)
+the decrease of the acc is  -9.996891021768484e-06
+cur bit connection is  (20, 21)
+the decrease of the acc is  0.024877998232841425
+cur bit connection is  (20, 22)
+the decrease of the acc is  0.000271993279457039
+cur bit connection is  (20, 23)
+the decrease of the acc is  0.00034700274467469594
+cur bit connection is  (20, 24)
+the decrease of the acc is  0.001063002347946096
+cur bit connection is  (20, 25)
+the decrease of the acc is  0.004165000915527406
+cur bit connection is  (20, 26)
+the decrease of the acc is  0.018915995955467224
+cur bit connection is  (20, 27)
+the decrease of the acc is  0.033510997891426086
+cur bit connection is  (20, 28)
+the decrease of the acc is  0.03272999882698058
+cur bit connection is  (20, 29)
+the decrease of the acc is  0.03888599932193748
+cur bit connection is  (20, 30)
+the decrease of the acc is  0.019017000198364165
+cur bit connection is  (20, 31)
+the decrease of the acc is  -1.997351646410017e-06
+cur bit connection is  (21, 22)
+the decrease of the acc is  0.0005059969425201816
+cur bit connection is  (21, 23)
+the decrease of the acc is  0.0003780043125153343
+cur bit connection is  (21, 24)
+the decrease of the acc is  0.0004699999094009977
+cur bit connection is  (21, 25)
+the decrease of the acc is  0.0032550019025802124
+cur bit connection is  (21, 26)
+the decrease of the acc is  0.00876000046730041
+cur bit connection is  (21, 27)
+the decrease of the acc is  0.025258996486663854
+cur bit connection is  (21, 28)
+the decrease of the acc is  0.04032299697399133
+cur bit connection is  (21, 29)
+the decrease of the acc is  0.024108996391296378
+cur bit connection is  (21, 30)
+the decrease of the acc is  0.04428499639034267
+cur bit connection is  (21, 31)
+the decrease of the acc is  1.0000467300375071e-05
+cur bit connection is  (22, 23)
+the decrease of the acc is  0.0007099986076354314
+cur bit connection is  (22, 24)
+the decrease of the acc is  1.699924469000802e-05
+cur bit connection is  (22, 25)
+the decrease of the acc is  0.000493998527526851
+cur bit connection is  (22, 26)
+the decrease of the acc is  -0.0004030025005340443
+cur bit connection is  (22, 27)
+the decrease of the acc is  -0.0005219978094100908
+cur bit connection is  (22, 28)
+the decrease of the acc is  -0.00039999961853021127
+cur bit connection is  (22, 29)
+the decrease of the acc is  -0.0005539983510970403
+cur bit connection is  (22, 30)
+the decrease of the acc is  0.0003690010309219671
+cur bit connection is  (22, 31)
+the decrease of the acc is  -9.299755096436879e-05
+cur bit connection is  (23, 24)
+the decrease of the acc is  -0.00023899972438812256
+cur bit connection is  (23, 25)
+the decrease of the acc is  -0.00037000358104699593
+cur bit connection is  (23, 26)
+the decrease of the acc is  0.00033299922943119675
+cur bit connection is  (23, 27)
+the decrease of the acc is  -8.899629116054797e-05
+cur bit connection is  (23, 28)
+the decrease of the acc is  0.0003150027990341808
+cur bit connection is  (23, 29)
+the decrease of the acc is  0.0019609969854355036
+cur bit connection is  (23, 30)
+the decrease of the acc is  0.00047900021076208166
+cur bit connection is  (23, 31)
+the decrease of the acc is  -6.499886512756348e-05
+cur bit connection is  (24, 25)
+the decrease of the acc is  0.0012769997119903564
+cur bit connection is  (24, 26)
+the decrease of the acc is  0.0013160026073455455
+cur bit connection is  (24, 27)
+the decrease of the acc is  0.0012129998207092152
+cur bit connection is  (24, 28)
+the decrease of the acc is  0.0009559988975524902
+cur bit connection is  (24, 29)
+the decrease of the acc is  1.6999244689896997e-05
+cur bit connection is  (24, 30)
+the decrease of the acc is  0.00030199885368342727
+cur bit connection is  (24, 31)
+the decrease of the acc is  -3.0998587608244144e-05
+cur bit connection is  (25, 26)
+the decrease of the acc is  0.011224005222320477
+cur bit connection is  (25, 27)
+the decrease of the acc is  0.007256999015808008
+cur bit connection is  (25, 28)
+the decrease of the acc is  0.01047599911689756
+cur bit connection is  (25, 29)
+the decrease of the acc is  0.004019995331764226
+cur bit connection is  (25, 30)
+the decrease of the acc is  0.001775997877121016
+cur bit connection is  (25, 31)
+the decrease of the acc is  -9.700000286105848e-05
+cur bit connection is  (26, 27)
+the decrease of the acc is  0.024378998875618008
+cur bit connection is  (26, 28)
+the decrease of the acc is  0.023440001606941263
+cur bit connection is  (26, 29)
+the decrease of the acc is  0.018400999307632504
+cur bit connection is  (26, 30)
+the decrease of the acc is  0.0075069993734360185
+cur bit connection is  (26, 31)
+the decrease of the acc is  -8.300065994260031e-05
+cur bit connection is  (27, 28)
+the decrease of the acc is  0.036947994828224195
+cur bit connection is  (27, 29)
+the decrease of the acc is  0.03357800185680382
+cur bit connection is  (27, 30)
+the decrease of the acc is  0.02187400281429297
+cur bit connection is  (27, 31)
+the decrease of the acc is  2.099990844728339e-05
+cur bit connection is  (28, 29)
+the decrease of the acc is  0.030831997990608206
+cur bit connection is  (28, 30)
+the decrease of the acc is  0.030878000259399352
+cur bit connection is  (28, 31)
+the decrease of the acc is  -0.00012700080871574926
+cur bit connection is  (29, 30)
+the decrease of the acc is  0.022589996457099915
+cur bit connection is  (29, 31)
+the decrease of the acc is  -0.0001139962673186723
+cur bit connection is  (30, 31)
+the decrease of the acc is  -1.4998316764880393e-05
+
+
+
+
+
+The initial acc is  0.7832279974222183
+cur bit connection is  (0, 1)
+the decrease of the acc is  -0.0001050025224685891
+cur bit connection is  (0, 2)
+the decrease of the acc is  -0.00019099950790402165
+cur bit connection is  (0, 3)
+the decrease of the acc is  0.0007440006732940541
+cur bit connection is  (0, 4)
+the decrease of the acc is  -0.000404998064041151
+cur bit connection is  (0, 5)
+the decrease of the acc is  0.0010550028085708485
+cur bit connection is  (0, 6)
+the decrease of the acc is  7.000088691710982e-05
+cur bit connection is  (0, 7)
+the decrease of the acc is  -9.995698928566554e-07
+cur bit connection is  (0, 8)
+the decrease of the acc is  -1.8000006675733538e-05
+cur bit connection is  (0, 9)
+the decrease of the acc is  -3.500223159791371e-05
+cur bit connection is  (0, 10)
+the decrease of the acc is  -0.00031499803066248333
+cur bit connection is  (0, 11)
+the decrease of the acc is  -0.00013700187206266978
+cur bit connection is  (0, 12)
+the decrease of the acc is  3.0001401901236235e-05
+cur bit connection is  (0, 13)
+the decrease of the acc is  0.0005570060014724598
+cur bit connection is  (0, 14)
+the decrease of the acc is  0.00021999776363368362
+cur bit connection is  (0, 15)
+the decrease of the acc is  1.100063323977718e-05
+cur bit connection is  (0, 16)
+the decrease of the acc is  -0.00036300182342530185
+cur bit connection is  (0, 17)
+the decrease of the acc is  -0.0004080003499985496
+cur bit connection is  (0, 18)
+the decrease of the acc is  0.00015900135040280983
+cur bit connection is  (0, 19)
+the decrease of the acc is  0.0006290006637573731
+cur bit connection is  (0, 20)
+the decrease of the acc is  0.0001829963922500566
+cur bit connection is  (0, 21)
+the decrease of the acc is  0.00024300098419194338
+cur bit connection is  (0, 22)
+the decrease of the acc is  -4.799723625181773e-05
+cur bit connection is  (0, 23)
+the decrease of the acc is  -0.00010100126266476828
+cur bit connection is  (0, 24)
+the decrease of the acc is  3.5003423690782576e-05
+cur bit connection is  (0, 25)
+the decrease of the acc is  4.900276660912972e-05
+cur bit connection is  (0, 26)
+the decrease of the acc is  -7.000207900997868e-05
+cur bit connection is  (0, 27)
+the decrease of the acc is  -0.00047499775886539197
+cur bit connection is  (0, 28)
+the decrease of the acc is  -0.00015799939632410442
+cur bit connection is  (0, 29)
+the decrease of the acc is  -0.00047600150108340067
+cur bit connection is  (0, 30)
+the decrease of the acc is  -1.5997886657626026e-05
+cur bit connection is  (0, 31)
+the decrease of the acc is  -2.9004812240551736e-05
+cur bit connection is  (1, 2)
+the decrease of the acc is  -0.0001020056009292114
+cur bit connection is  (1, 3)
+the decrease of the acc is  0.0009330010414123624
+cur bit connection is  (1, 4)
+the decrease of the acc is  -0.0005339974164962902
+cur bit connection is  (1, 5)
+the decrease of the acc is  -4.2998790740989e-05
+cur bit connection is  (1, 6)
+the decrease of the acc is  4.599750041966999e-05
+cur bit connection is  (1, 7)
+the decrease of the acc is  -7.800340652464044e-05
+cur bit connection is  (1, 8)
+the decrease of the acc is  0.00012399792671202725
+cur bit connection is  (1, 9)
+the decrease of the acc is  -1.4002323150630325e-05
+cur bit connection is  (1, 10)
+the decrease of the acc is  0.0007239997386933039
+cur bit connection is  (1, 11)
+the decrease of the acc is  -3.499746322632724e-05
+cur bit connection is  (1, 12)
+the decrease of the acc is  -0.00016899704933170945
+cur bit connection is  (1, 13)
+the decrease of the acc is  0.00012299597263332185
+cur bit connection is  (1, 14)
+the decrease of the acc is  0.00023599803447726941
+cur bit connection is  (1, 15)
+the decrease of the acc is  -2.7999281883239746e-05
+cur bit connection is  (1, 16)
+the decrease of the acc is  -4.8998594284088703e-05
+cur bit connection is  (1, 17)
+the decrease of the acc is  0.0009380024671554743
+cur bit connection is  (1, 18)
+the decrease of the acc is  0.000903000831603995
+cur bit connection is  (1, 19)
+the decrease of the acc is  0.000475001931190544
+cur bit connection is  (1, 20)
+the decrease of the acc is  -0.00013299524784093908
+cur bit connection is  (1, 21)
+the decrease of the acc is  0.000623996257782089
+cur bit connection is  (1, 22)
+the decrease of the acc is  0.00012599706649785158
+cur bit connection is  (1, 23)
+the decrease of the acc is  0.00010499954223630592
+cur bit connection is  (1, 24)
+the decrease of the acc is  -0.00027000248432162977
+cur bit connection is  (1, 25)
+the decrease of the acc is  0.00039299547672277946
+cur bit connection is  (1, 26)
+the decrease of the acc is  0.00010299921035761272
+cur bit connection is  (1, 27)
+the decrease of the acc is  7.29995965957908e-05
+cur bit connection is  (1, 28)
+the decrease of the acc is  -0.0006200009584427235
+cur bit connection is  (1, 29)
+the decrease of the acc is  -0.000307998657226638
+cur bit connection is  (1, 30)
+the decrease of the acc is  4.099965095527569e-05
+cur bit connection is  (1, 31)
+the decrease of the acc is  -6.699800491338781e-05
+cur bit connection is  (2, 3)
+the decrease of the acc is  0.028882003426551894
+cur bit connection is  (2, 4)
+the decrease of the acc is  0.01566400289535519
+cur bit connection is  (2, 5)
+the decrease of the acc is  0.004884001612663225
+cur bit connection is  (2, 6)
+the decrease of the acc is  9.599745273591864e-05
+cur bit connection is  (2, 7)
+the decrease of the acc is  4.499614238739902e-05
+cur bit connection is  (2, 8)
+the decrease of the acc is  -0.00048600375652319006
+cur bit connection is  (2, 9)
+the decrease of the acc is  -0.0020250004529953625
+cur bit connection is  (2, 10)
+the decrease of the acc is  0.0024720031023025557
+cur bit connection is  (2, 11)
+the decrease of the acc is  0.020221995711326546
+cur bit connection is  (2, 12)
+the decrease of the acc is  0.00479800045490264
+cur bit connection is  (2, 13)
+the decrease of the acc is  0.0016889989376068781
+cur bit connection is  (2, 14)
+the decrease of the acc is  0.0023960018157959118
+cur bit connection is  (2, 15)
+the decrease of the acc is  -2.2999644279542153e-05
+cur bit connection is  (2, 16)
+the decrease of the acc is  0.015426996350288436
+cur bit connection is  (2, 17)
+the decrease of the acc is  0.03259899675846101
+cur bit connection is  (2, 18)
+the decrease of the acc is  0.0019209957122803267
+cur bit connection is  (2, 19)
+the decrease of the acc is  0.02541800141334538
+cur bit connection is  (2, 20)
+the decrease of the acc is  0.016277003288269087
+cur bit connection is  (2, 21)
+the decrease of the acc is  0.004871002435684169
+cur bit connection is  (2, 22)
+the decrease of the acc is  0.0002800011634825905
+cur bit connection is  (2, 23)
+the decrease of the acc is  -7.400035858151632e-05
+cur bit connection is  (2, 24)
+the decrease of the acc is  -0.0017710047960280972
+cur bit connection is  (2, 25)
+the decrease of the acc is  -0.0027489989995956865
+cur bit connection is  (2, 26)
+the decrease of the acc is  0.005782000422477673
+cur bit connection is  (2, 27)
+the decrease of the acc is  0.014526001214981044
+cur bit connection is  (2, 28)
+the decrease of the acc is  0.006384000778198229
+cur bit connection is  (2, 29)
+the decrease of the acc is  0.0019179975986480802
+cur bit connection is  (2, 30)
+the decrease of the acc is  0.002419003248214757
+cur bit connection is  (2, 31)
+the decrease of the acc is  -8.995532989497512e-06
+cur bit connection is  (3, 4)
+the decrease of the acc is  0.05300899803638459
+cur bit connection is  (3, 5)
+the decrease of the acc is  0.030027004480361996
+cur bit connection is  (3, 6)
+the decrease of the acc is  3.800511360163572e-05
+cur bit connection is  (3, 7)
+the decrease of the acc is  -6.600260734557217e-05
+cur bit connection is  (3, 8)
+the decrease of the acc is  -1.4002919197064756e-05
+cur bit connection is  (3, 9)
+the decrease of the acc is  0.0020289981365203547
+cur bit connection is  (3, 10)
+the decrease of the acc is  0.012896002531051609
+cur bit connection is  (3, 11)
+the decrease of the acc is  0.05082500338554374
+cur bit connection is  (3, 12)
+the decrease of the acc is  0.0332789987325669
+cur bit connection is  (3, 13)
+the decrease of the acc is  0.02188300132751464
+cur bit connection is  (3, 14)
+the decrease of the acc is  0.01686300098896021
+cur bit connection is  (3, 15)
+the decrease of the acc is  9.400069713594306e-05
+cur bit connection is  (3, 16)
+the decrease of the acc is  0.012750999331474278
+cur bit connection is  (3, 17)
+the decrease of the acc is  0.04270099759101864
+cur bit connection is  (3, 18)
+the decrease of the acc is  0.054190002083778444
+cur bit connection is  (3, 19)
+the decrease of the acc is  0.0931330001354217
+cur bit connection is  (3, 20)
+the decrease of the acc is  0.05383900165557853
+cur bit connection is  (3, 21)
+the decrease of the acc is  0.030395999550819397
+cur bit connection is  (3, 22)
+the decrease of the acc is  0.00013199865818014356
+cur bit connection is  (3, 23)
+the decrease of the acc is  0.0008169996738434104
+cur bit connection is  (3, 24)
+the decrease of the acc is  0.0018629962205887196
+cur bit connection is  (3, 25)
+the decrease of the acc is  0.010453003048896736
+cur bit connection is  (3, 26)
+the decrease of the acc is  0.03024100363254545
+cur bit connection is  (3, 27)
+the decrease of the acc is  0.05270000040531164
+cur bit connection is  (3, 28)
+the decrease of the acc is  0.03862799882888801
+cur bit connection is  (3, 29)
+the decrease of the acc is  0.02124899864196783
+cur bit connection is  (3, 30)
+the decrease of the acc is  0.017464998960495026
+cur bit connection is  (3, 31)
+the decrease of the acc is  0.00011299967765809882
+cur bit connection is  (4, 5)
+the decrease of the acc is  0.05527899622917176
+cur bit connection is  (4, 6)
+the decrease of the acc is  8.900344371787217e-05
+cur bit connection is  (4, 7)
+the decrease of the acc is  2.9003620147793896e-05
+cur bit connection is  (4, 8)
+the decrease of the acc is  0.0002480030059813787
+cur bit connection is  (4, 9)
+the decrease of the acc is  0.0025450026988983465
+cur bit connection is  (4, 10)
+the decrease of the acc is  0.01835200011730187
+cur bit connection is  (4, 11)
+the decrease of the acc is  0.08998900055885317
+cur bit connection is  (4, 12)
+the decrease of the acc is  0.054011998772621195
+cur bit connection is  (4, 13)
+the decrease of the acc is  0.0488489985466003
+cur bit connection is  (4, 14)
+the decrease of the acc is  0.03690500140190123
+cur bit connection is  (4, 15)
+the decrease of the acc is  -3.3997297287036155e-05
+cur bit connection is  (4, 16)
+the decrease of the acc is  0.01774900019168857
+cur bit connection is  (4, 17)
+the decrease of the acc is  0.04419799983501427
+cur bit connection is  (4, 18)
+the decrease of the acc is  0.06264499783515931
+cur bit connection is  (4, 19)
+the decrease of the acc is  0.06426399886608125
+cur bit connection is  (4, 20)
+the decrease of the acc is  0.1497509980201721
+cur bit connection is  (4, 21)
+the decrease of the acc is  0.05520000219345089
+cur bit connection is  (4, 22)
+the decrease of the acc is  5.5999755859348355e-05
+cur bit connection is  (4, 23)
+the decrease of the acc is  0.0003529983758926436
+cur bit connection is  (4, 24)
+the decrease of the acc is  0.002994996309280351
+cur bit connection is  (4, 25)
+the decrease of the acc is  0.018975998759269697
+cur bit connection is  (4, 26)
+the decrease of the acc is  0.04736200153827663
+cur bit connection is  (4, 27)
+the decrease of the acc is  0.10691299915313723
+cur bit connection is  (4, 28)
+the decrease of the acc is  0.06437399983406067
+cur bit connection is  (4, 29)
+the decrease of the acc is  0.04912600159645075
+cur bit connection is  (4, 30)
+the decrease of the acc is  0.03723299980163575
+cur bit connection is  (4, 31)
+the decrease of the acc is  2.5002956390296482e-05
+cur bit connection is  (5, 6)
+the decrease of the acc is  4.099905490873024e-05
+cur bit connection is  (5, 7)
+the decrease of the acc is  1.099705696105957e-05
+cur bit connection is  (5, 8)
+the decrease of the acc is  0.00029099881649019554
+cur bit connection is  (5, 9)
+the decrease of the acc is  0.0017229968309402377
+cur bit connection is  (5, 10)
+the decrease of the acc is  0.008393998146057124
+cur bit connection is  (5, 11)
+the decrease of the acc is  0.04425100147724148
+cur bit connection is  (5, 12)
+the decrease of the acc is  0.05499500393867496
+cur bit connection is  (5, 13)
+the decrease of the acc is  0.03932899892330166
+cur bit connection is  (5, 14)
+the decrease of the acc is  0.06390000164508813
+cur bit connection is  (5, 15)
+the decrease of the acc is  1.9003748893742234e-05
+cur bit connection is  (5, 16)
+the decrease of the acc is  0.004206992387771558
+cur bit connection is  (5, 17)
+the decrease of the acc is  0.020551000833511357
+cur bit connection is  (5, 18)
+the decrease of the acc is  0.031030001044273448
+cur bit connection is  (5, 19)
+the decrease of the acc is  0.046839006543159534
+cur bit connection is  (5, 20)
+the decrease of the acc is  0.05572400093078611
+cur bit connection is  (5, 21)
+the decrease of the acc is  0.11125599801540376
+cur bit connection is  (5, 22)
+the decrease of the acc is  0.00019199788570400944
+cur bit connection is  (5, 23)
+the decrease of the acc is  0.00024499952793111124
+cur bit connection is  (5, 24)
+the decrease of the acc is  0.002298998832702681
+cur bit connection is  (5, 25)
+the decrease of the acc is  0.013739994168281533
+cur bit connection is  (5, 26)
+the decrease of the acc is  0.03045899987220757
+cur bit connection is  (5, 27)
+the decrease of the acc is  0.05500499725341801
+cur bit connection is  (5, 28)
+the decrease of the acc is  0.07872700035572056
+cur bit connection is  (5, 29)
+the decrease of the acc is  0.039358001351356586
+cur bit connection is  (5, 30)
+the decrease of the acc is  0.06385300219058998
+cur bit connection is  (5, 31)
+the decrease of the acc is  -9.500384330751732e-05
+cur bit connection is  (6, 7)
+the decrease of the acc is  5.500137805936056e-05
+cur bit connection is  (6, 8)
+the decrease of the acc is  5.7998895645061666e-05
+cur bit connection is  (6, 9)
+the decrease of the acc is  9.399652481079102e-05
+cur bit connection is  (6, 10)
+the decrease of the acc is  0.00024199545383452037
+cur bit connection is  (6, 11)
+the decrease of the acc is  0.00027399778366088423
+cur bit connection is  (6, 12)
+the decrease of the acc is  0.000617998838424727
+cur bit connection is  (6, 13)
+the decrease of the acc is  0.00013400137424479652
+cur bit connection is  (6, 14)
+the decrease of the acc is  0.0002930003404617576
+cur bit connection is  (6, 15)
+the decrease of the acc is  7.99715518950972e-06
+cur bit connection is  (6, 16)
+the decrease of the acc is  -7.799863815305397e-05
+cur bit connection is  (6, 17)
+the decrease of the acc is  0.00043199539184568536
+cur bit connection is  (6, 18)
+the decrease of the acc is  4.499793052670231e-05
+cur bit connection is  (6, 19)
+the decrease of the acc is  0.0001740014553069935
+cur bit connection is  (6, 20)
+the decrease of the acc is  8.600294589988788e-05
+cur bit connection is  (6, 21)
+the decrease of the acc is  0.00031699717044830766
+cur bit connection is  (6, 22)
+the decrease of the acc is  1.0998845100473886e-05
+cur bit connection is  (6, 23)
+the decrease of the acc is  4.4999122619571175e-05
+cur bit connection is  (6, 24)
+the decrease of the acc is  -5.0997734069802014e-05
+cur bit connection is  (6, 25)
+the decrease of the acc is  -0.00038400232791901967
+cur bit connection is  (6, 26)
+the decrease of the acc is  -0.00015699923038481334
+cur bit connection is  (6, 27)
+the decrease of the acc is  0.0008189982175826893
+cur bit connection is  (6, 28)
+the decrease of the acc is  0.00019900023937224898
+cur bit connection is  (6, 29)
+the decrease of the acc is  0.00022499740123749223
+cur bit connection is  (6, 30)
+the decrease of the acc is  0.0006189966201781694
+cur bit connection is  (6, 31)
+the decrease of the acc is  8.09967517851895e-05
+cur bit connection is  (7, 8)
+the decrease of the acc is  0.00014100074768064186
+cur bit connection is  (7, 9)
+the decrease of the acc is  9.400129318237749e-05
+cur bit connection is  (7, 10)
+the decrease of the acc is  -0.000255999565124454
+cur bit connection is  (7, 11)
+the decrease of the acc is  2.899825572966197e-05
+cur bit connection is  (7, 12)
+the decrease of the acc is  -0.00025300145149231845
+cur bit connection is  (7, 13)
+the decrease of the acc is  -0.0006030040979385642
+cur bit connection is  (7, 14)
+the decrease of the acc is  -0.000147001147270176
+cur bit connection is  (7, 15)
+the decrease of the acc is  2.2000074386574475e-05
+cur bit connection is  (7, 16)
+the decrease of the acc is  0.00028800010681151456
+cur bit connection is  (7, 17)
+the decrease of the acc is  -5.699932575220501e-05
+cur bit connection is  (7, 18)
+the decrease of the acc is  0.0002979981899261519
+cur bit connection is  (7, 19)
+the decrease of the acc is  0.000823000669479379
+cur bit connection is  (7, 20)
+the decrease of the acc is  0.0006219995021820024
+cur bit connection is  (7, 21)
+the decrease of the acc is  -0.00018000125885009322
+cur bit connection is  (7, 22)
+the decrease of the acc is  -1.1996626853916226e-05
+cur bit connection is  (7, 23)
+the decrease of the acc is  0.00013199627399451686
+cur bit connection is  (7, 24)
+the decrease of the acc is  0.00035400152206421787
+cur bit connection is  (7, 25)
+the decrease of the acc is  -0.00041499912738807154
+cur bit connection is  (7, 26)
+the decrease of the acc is  8.400022983545696e-05
+cur bit connection is  (7, 27)
+the decrease of the acc is  0.000572001338005057
+cur bit connection is  (7, 28)
+the decrease of the acc is  -0.0003280001878739336
+cur bit connection is  (7, 29)
+the decrease of the acc is  -0.000410999655723554
+cur bit connection is  (7, 30)
+the decrease of the acc is  -9.799957275391513e-05
+cur bit connection is  (7, 31)
+the decrease of the acc is  4.2999982833968886e-05
+cur bit connection is  (8, 9)
+the decrease of the acc is  0.00030199885368342727
+cur bit connection is  (8, 10)
+the decrease of the acc is  0.0004030025005341553
+cur bit connection is  (8, 11)
+the decrease of the acc is  -0.00012800037860871694
+cur bit connection is  (8, 12)
+the decrease of the acc is  0.0002309983968734608
+cur bit connection is  (8, 13)
+the decrease of the acc is  0.000607001185417233
+cur bit connection is  (8, 14)
+the decrease of the acc is  -0.00019000291824344817
+cur bit connection is  (8, 15)
+the decrease of the acc is  0.0001060044765472945
+cur bit connection is  (8, 16)
+the decrease of the acc is  -0.00038300156593329415
+cur bit connection is  (8, 17)
+the decrease of the acc is  -0.00015800476074223635
+cur bit connection is  (8, 18)
+the decrease of the acc is  0.00013499736785893557
+cur bit connection is  (8, 19)
+the decrease of the acc is  0.0009740036725998102
+cur bit connection is  (8, 20)
+the decrease of the acc is  -0.0006699967384338201
+cur bit connection is  (8, 21)
+the decrease of the acc is  3.400027751920831e-05
+cur bit connection is  (8, 22)
+the decrease of the acc is  9.399592876435658e-05
+cur bit connection is  (8, 23)
+the decrease of the acc is  6.300330162056778e-05
+cur bit connection is  (8, 24)
+the decrease of the acc is  0.0005510032176970769
+cur bit connection is  (8, 25)
+the decrease of the acc is  0.0012020009756088523
+cur bit connection is  (8, 26)
+the decrease of the acc is  0.0008460009098052446
+cur bit connection is  (8, 27)
+the decrease of the acc is  0.0006480002403259633
+cur bit connection is  (8, 28)
+the decrease of the acc is  -0.0001110041141509921
+cur bit connection is  (8, 29)
+the decrease of the acc is  -0.0005200010538101152
+cur bit connection is  (8, 30)
+the decrease of the acc is  0.0007440000772476196
+cur bit connection is  (8, 31)
+the decrease of the acc is  1.3001561164904807e-05
+cur bit connection is  (9, 10)
+the decrease of the acc is  0.0072250056266784934
+cur bit connection is  (9, 11)
+the decrease of the acc is  0.003111000061035263
+cur bit connection is  (9, 12)
+the decrease of the acc is  0.0034120005369187023
+cur bit connection is  (9, 13)
+the decrease of the acc is  0.0008820027112960149
+cur bit connection is  (9, 14)
+the decrease of the acc is  0.0008669972419739214
+cur bit connection is  (9, 15)
+the decrease of the acc is  -5.800366401675916e-05
+cur bit connection is  (9, 16)
+the decrease of the acc is  -0.002085998058319105
+cur bit connection is  (9, 17)
+the decrease of the acc is  0.0020369964838027332
+cur bit connection is  (9, 18)
+the decrease of the acc is  -0.0012079983949661033
+cur bit connection is  (9, 19)
+the decrease of the acc is  0.0025590014457702592
+cur bit connection is  (9, 20)
+the decrease of the acc is  0.00247899830341336
+cur bit connection is  (9, 21)
+the decrease of the acc is  0.0016149938106536643
+cur bit connection is  (9, 22)
+the decrease of the acc is  0.00011900186538704727
+cur bit connection is  (9, 23)
+the decrease of the acc is  0.00025699734687811837
+cur bit connection is  (9, 24)
+the decrease of the acc is  0.0012770009040832253
+cur bit connection is  (9, 25)
+the decrease of the acc is  0.005756000876426692
+cur bit connection is  (9, 26)
+the decrease of the acc is  0.008417002558708142
+cur bit connection is  (9, 27)
+the decrease of the acc is  0.0039419978857040405
+cur bit connection is  (9, 28)
+the decrease of the acc is  0.0031979984045028553
+cur bit connection is  (9, 29)
+the decrease of the acc is  0.0010269981622695878
+cur bit connection is  (9, 30)
+the decrease of the acc is  0.0007049989700317338
+cur bit connection is  (9, 31)
+the decrease of the acc is  5.001425743111909e-06
+cur bit connection is  (10, 11)
+the decrease of the acc is  0.022165001630783054
+cur bit connection is  (10, 12)
+the decrease of the acc is  0.01210500121116631
+cur bit connection is  (10, 13)
+the decrease of the acc is  0.008323999643325863
+cur bit connection is  (10, 14)
+the decrease of the acc is  0.005414001345634412
+cur bit connection is  (10, 15)
+the decrease of the acc is  -5.200147628781071e-05
+cur bit connection is  (10, 16)
+the decrease of the acc is  0.006978999972343414
+cur bit connection is  (10, 17)
+the decrease of the acc is  0.011993999481201167
+cur bit connection is  (10, 18)
+the decrease of the acc is  0.022600002884864856
+cur bit connection is  (10, 19)
+the decrease of the acc is  0.0159909975528717
+cur bit connection is  (10, 20)
+the decrease of the acc is  0.018606001138687156
+cur bit connection is  (10, 21)
+the decrease of the acc is  0.009195995926856937
+cur bit connection is  (10, 22)
+the decrease of the acc is  -4.0001273155176875e-05
+cur bit connection is  (10, 23)
+the decrease of the acc is  0.001031001210212712
+cur bit connection is  (10, 24)
+the decrease of the acc is  0.0018609982728957641
+cur bit connection is  (10, 25)
+the decrease of the acc is  0.013615999221801678
+cur bit connection is  (10, 26)
+the decrease of the acc is  0.028471999168395934
+cur bit connection is  (10, 27)
+the decrease of the acc is  0.02140700101852422
+cur bit connection is  (10, 28)
+the decrease of the acc is  0.01331899762153621
+cur bit connection is  (10, 29)
+the decrease of the acc is  0.007795001864433271
+cur bit connection is  (10, 30)
+the decrease of the acc is  0.006333004236221296
+cur bit connection is  (10, 31)
+the decrease of the acc is  -6.400048732757568e-05
+cur bit connection is  (11, 12)
+the decrease of the acc is  0.05190200150012969
+cur bit connection is  (11, 13)
+the decrease of the acc is  0.03227800011634829
+cur bit connection is  (11, 14)
+the decrease of the acc is  0.026921999454498358
+cur bit connection is  (11, 15)
+the decrease of the acc is  -4.099607467644706e-05
+cur bit connection is  (11, 16)
+the decrease of the acc is  0.018100998997688245
+cur bit connection is  (11, 17)
+the decrease of the acc is  0.04461399614810946
+cur bit connection is  (11, 18)
+the decrease of the acc is  0.06569199860095987
+cur bit connection is  (11, 19)
+the decrease of the acc is  0.06121699988842011
+cur bit connection is  (11, 20)
+the decrease of the acc is  0.0894179993867874
+cur bit connection is  (11, 21)
+the decrease of the acc is  0.044626995325088514
+cur bit connection is  (11, 22)
+the decrease of the acc is  6.899476051325237e-05
+cur bit connection is  (11, 23)
+the decrease of the acc is  0.0007770025730132746
+cur bit connection is  (11, 24)
+the decrease of the acc is  0.00539200305938714
+cur bit connection is  (11, 25)
+the decrease of the acc is  0.023259000182151768
+cur bit connection is  (11, 26)
+the decrease of the acc is  0.0501110017299653
+cur bit connection is  (11, 27)
+the decrease of the acc is  0.10503700256347659
+cur bit connection is  (11, 28)
+the decrease of the acc is  0.05613699972629538
+cur bit connection is  (11, 29)
+the decrease of the acc is  0.03219799935817724
+cur bit connection is  (11, 30)
+the decrease of the acc is  0.027063999772071856
+cur bit connection is  (11, 31)
+the decrease of the acc is  -8.199930191032934e-05
+cur bit connection is  (12, 13)
+the decrease of the acc is  0.03544299840927123
+cur bit connection is  (12, 14)
+the decrease of the acc is  0.02700600028038025
+cur bit connection is  (12, 15)
+the decrease of the acc is  -3.4998655319196104e-05
+cur bit connection is  (12, 16)
+the decrease of the acc is  0.004225998520851149
+cur bit connection is  (12, 17)
+the decrease of the acc is  0.022380997538566594
+cur bit connection is  (12, 18)
+the decrease of the acc is  0.0312910002470016
+cur bit connection is  (12, 19)
+the decrease of the acc is  0.04723799765110015
+cur bit connection is  (12, 20)
+the decrease of the acc is  0.05416600048542031
+cur bit connection is  (12, 21)
+the decrease of the acc is  0.055674997568130546
+cur bit connection is  (12, 22)
+the decrease of the acc is  -0.00015399813652039462
+cur bit connection is  (12, 23)
+the decrease of the acc is  0.0001430040597915072
+cur bit connection is  (12, 24)
+the decrease of the acc is  0.0030159980058669378
+cur bit connection is  (12, 25)
+the decrease of the acc is  0.02743400156497955
+cur bit connection is  (12, 26)
+the decrease of the acc is  0.0527840006351471
+cur bit connection is  (12, 27)
+the decrease of the acc is  0.05869500160217278
+cur bit connection is  (12, 28)
+the decrease of the acc is  0.0876999992132187
+cur bit connection is  (12, 29)
+the decrease of the acc is  0.03547500014305105
+cur bit connection is  (12, 30)
+the decrease of the acc is  0.027123996615409873
+cur bit connection is  (12, 31)
+the decrease of the acc is  1.1003017425514905e-05
+cur bit connection is  (13, 14)
+the decrease of the acc is  0.03781899511814124
+cur bit connection is  (13, 15)
+the decrease of the acc is  3.001689910964167e-06
+cur bit connection is  (13, 16)
+the decrease of the acc is  0.0027150034904479536
+cur bit connection is  (13, 17)
+the decrease of the acc is  0.014787998795509294
+cur bit connection is  (13, 18)
+the decrease of the acc is  0.01611100137233734
+cur bit connection is  (13, 19)
+the decrease of the acc is  0.028348000049591038
+cur bit connection is  (13, 20)
+the decrease of the acc is  0.04819999873638148
+cur bit connection is  (13, 21)
+the decrease of the acc is  0.03936699807643895
+cur bit connection is  (13, 22)
+the decrease of the acc is  9.300231933584424e-05
+cur bit connection is  (13, 23)
+the decrease of the acc is  1.1996030807481795e-05
+cur bit connection is  (13, 24)
+the decrease of the acc is  0.0011540007591247514
+cur bit connection is  (13, 25)
+the decrease of the acc is  0.012576998472213718
+cur bit connection is  (13, 26)
+the decrease of the acc is  0.03206399679183958
+cur bit connection is  (13, 27)
+the decrease of the acc is  0.04405099749565122
+cur bit connection is  (13, 28)
+the decrease of the acc is  0.046140000224113464
+cur bit connection is  (13, 29)
+the decrease of the acc is  0.08164299309253686
+cur bit connection is  (13, 30)
+the decrease of the acc is  0.037435002326965394
+cur bit connection is  (13, 31)
+the decrease of the acc is  -2.2996664047258975e-05
+cur bit connection is  (14, 15)
+the decrease of the acc is  3.1002163887072776e-05
+cur bit connection is  (14, 16)
+the decrease of the acc is  0.002964996695518418
+cur bit connection is  (14, 17)
+the decrease of the acc is  0.011825002431869458
+cur bit connection is  (14, 18)
+the decrease of the acc is  0.012828006148338345
+cur bit connection is  (14, 19)
+the decrease of the acc is  0.023279000520706195
+cur bit connection is  (14, 20)
+the decrease of the acc is  0.037650998234748934
+cur bit connection is  (14, 21)
+the decrease of the acc is  0.06389099776744844
+cur bit connection is  (14, 22)
+the decrease of the acc is  -3.500401973721701e-05
+cur bit connection is  (14, 23)
+the decrease of the acc is  0.00017299652099611595
+cur bit connection is  (14, 24)
+the decrease of the acc is  0.0013269990682602817
+cur bit connection is  (14, 25)
+the decrease of the acc is  0.008112998604774546
+cur bit connection is  (14, 26)
+the decrease of the acc is  0.020295000672340358
+cur bit connection is  (14, 27)
+the decrease of the acc is  0.03784600198268895
+cur bit connection is  (14, 28)
+the decrease of the acc is  0.04714999735355385
+cur bit connection is  (14, 29)
+the decrease of the acc is  0.03742200374603266
+cur bit connection is  (14, 30)
+the decrease of the acc is  0.07474100172519682
+cur bit connection is  (14, 31)
+the decrease of the acc is  -4.399895668039111e-05
+cur bit connection is  (15, 16)
+the decrease of the acc is  7.899999618521392e-05
+cur bit connection is  (15, 17)
+the decrease of the acc is  0.00025299966335301516
+cur bit connection is  (15, 18)
+the decrease of the acc is  -9.09954309463723e-05
+cur bit connection is  (15, 19)
+the decrease of the acc is  -0.0005970001220703125
+cur bit connection is  (15, 20)
+the decrease of the acc is  -8.000075817116148e-05
+cur bit connection is  (15, 21)
+the decrease of the acc is  -8.300364017488349e-05
+cur bit connection is  (15, 22)
+the decrease of the acc is  -2.0998120307869073e-05
+cur bit connection is  (15, 23)
+the decrease of the acc is  -0.00010600090026846587
+cur bit connection is  (15, 24)
+the decrease of the acc is  0.00029000580310822865
+cur bit connection is  (15, 25)
+the decrease of the acc is  0.00022700130939479202
+cur bit connection is  (15, 26)
+the decrease of the acc is  -0.0007840013504029075
+cur bit connection is  (15, 27)
+the decrease of the acc is  0.0006679928302765203
+cur bit connection is  (15, 28)
+the decrease of the acc is  -0.00036000132560731757
+cur bit connection is  (15, 29)
+the decrease of the acc is  0.0009030026197432983
+cur bit connection is  (15, 30)
+the decrease of the acc is  3.699779510502044e-05
+cur bit connection is  (15, 31)
+the decrease of the acc is  5.000233650132024e-06
+cur bit connection is  (16, 17)
+the decrease of the acc is  0.028753001689910906
+cur bit connection is  (16, 18)
+the decrease of the acc is  0.005560996532440132
+cur bit connection is  (16, 19)
+the decrease of the acc is  0.013466004729270953
+cur bit connection is  (16, 20)
+the decrease of the acc is  0.017630998492240813
+cur bit connection is  (16, 21)
+the decrease of the acc is  0.0032200038433074507
+cur bit connection is  (16, 22)
+the decrease of the acc is  -5.5001974105906015e-05
+cur bit connection is  (16, 23)
+the decrease of the acc is  -0.00022799730300904208
+cur bit connection is  (16, 24)
+the decrease of the acc is  -0.001312999129295389
+cur bit connection is  (16, 25)
+the decrease of the acc is  -0.0008550000190734597
+cur bit connection is  (16, 26)
+the decrease of the acc is  0.010577999353408862
+cur bit connection is  (16, 27)
+the decrease of the acc is  0.01614500045776368
+cur bit connection is  (16, 28)
+the decrease of the acc is  0.005744996666908309
+cur bit connection is  (16, 29)
+the decrease of the acc is  0.002846000194549503
+cur bit connection is  (16, 30)
+the decrease of the acc is  0.002890998125076205
+cur bit connection is  (16, 31)
+the decrease of the acc is  -3.699421882630283e-05
+cur bit connection is  (17, 18)
+the decrease of the acc is  0.0564429992437363
+cur bit connection is  (17, 19)
+the decrease of the acc is  0.04259399831295019
+cur bit connection is  (17, 20)
+the decrease of the acc is  0.04406499922275542
+cur bit connection is  (17, 21)
+the decrease of the acc is  0.021036000251769993
+cur bit connection is  (17, 22)
+the decrease of the acc is  2.5999546051092004e-05
+cur bit connection is  (17, 23)
+the decrease of the acc is  0.00014800250530244696
+cur bit connection is  (17, 24)
+the decrease of the acc is  -0.000483000874519357
+cur bit connection is  (17, 25)
+the decrease of the acc is  0.0072539979219437
+cur bit connection is  (17, 26)
+the decrease of the acc is  0.024724003672599748
+cur bit connection is  (17, 27)
+the decrease of the acc is  0.042697998285293526
+cur bit connection is  (17, 28)
+the decrease of the acc is  0.02719899952411642
+cur bit connection is  (17, 29)
+the decrease of the acc is  0.013741993904113792
+cur bit connection is  (17, 30)
+the decrease of the acc is  0.011738997101783721
+cur bit connection is  (17, 31)
+the decrease of the acc is  -1.3005137443622417e-05
+cur bit connection is  (18, 19)
+the decrease of the acc is  0.06591900169849396
+cur bit connection is  (18, 20)
+the decrease of the acc is  0.0621990019083023
+cur bit connection is  (18, 21)
+the decrease of the acc is  0.03162799715995779
+cur bit connection is  (18, 22)
+the decrease of the acc is  0.00017600238323212114
+cur bit connection is  (18, 23)
+the decrease of the acc is  0.0005270034074783547
+cur bit connection is  (18, 24)
+the decrease of the acc is  0.001816999316215484
+cur bit connection is  (18, 25)
+the decrease of the acc is  0.0076169991493225675
+cur bit connection is  (18, 26)
+the decrease of the acc is  0.032740999460220355
+cur bit connection is  (18, 27)
+the decrease of the acc is  0.058309999704360904
+cur bit connection is  (18, 28)
+the decrease of the acc is  0.035181001424789526
+cur bit connection is  (18, 29)
+the decrease of the acc is  0.01585300087928776
+cur bit connection is  (18, 30)
+the decrease of the acc is  0.013148997426033038
+cur bit connection is  (18, 31)
+the decrease of the acc is  -2.7000904083251953e-05
+cur bit connection is  (19, 20)
+the decrease of the acc is  0.06447400212287901
+cur bit connection is  (19, 21)
+the decrease of the acc is  0.04748800039291379
+cur bit connection is  (19, 22)
+the decrease of the acc is  0.00033700406551362416
+cur bit connection is  (19, 23)
+the decrease of the acc is  0.001039996147155775
+cur bit connection is  (19, 24)
+the decrease of the acc is  0.002954001426696773
+cur bit connection is  (19, 25)
+the decrease of the acc is  0.01592499375343326
+cur bit connection is  (19, 26)
+the decrease of the acc is  0.039435002207755976
+cur bit connection is  (19, 27)
+the decrease of the acc is  0.0637729978561401
+cur bit connection is  (19, 28)
+the decrease of the acc is  0.0523529970645904
+cur bit connection is  (19, 29)
+the decrease of the acc is  0.028253000378608673
+cur bit connection is  (19, 30)
+the decrease of the acc is  0.023441004753112726
+cur bit connection is  (19, 31)
+the decrease of the acc is  9.997487068202915e-06
+cur bit connection is  (20, 21)
+the decrease of the acc is  0.055717003941536
+cur bit connection is  (20, 22)
+the decrease of the acc is  -5.900502204891911e-05
+cur bit connection is  (20, 23)
+the decrease of the acc is  0.0004659980535507424
+cur bit connection is  (20, 24)
+the decrease of the acc is  0.002828003764152487
+cur bit connection is  (20, 25)
+the decrease of the acc is  0.018998001813888554
+cur bit connection is  (20, 26)
+the decrease of the acc is  0.04753299832344049
+cur bit connection is  (20, 27)
+the decrease of the acc is  0.10619399428367615
+cur bit connection is  (20, 28)
+the decrease of the acc is  0.0643789964914322
+cur bit connection is  (20, 29)
+the decrease of the acc is  0.04940899968147283
+cur bit connection is  (20, 30)
+the decrease of the acc is  0.037192003130912865
+cur bit connection is  (20, 31)
+the decrease of the acc is  -3.100037574765846e-05
+cur bit connection is  (21, 22)
+the decrease of the acc is  0.00015799820423123556
+cur bit connection is  (21, 23)
+the decrease of the acc is  0.00044100105762479025
+cur bit connection is  (21, 24)
+the decrease of the acc is  0.0022230005264282093
+cur bit connection is  (21, 25)
+the decrease of the acc is  0.014017000198364271
+cur bit connection is  (21, 26)
+the decrease of the acc is  0.030316004157066367
+cur bit connection is  (21, 27)
+the decrease of the acc is  0.05505499601364128
+cur bit connection is  (21, 28)
+the decrease of the acc is  0.07897499978542322
+cur bit connection is  (21, 29)
+the decrease of the acc is  0.03928400456905368
+cur bit connection is  (21, 30)
+the decrease of the acc is  0.06386600017547606
+cur bit connection is  (21, 31)
+the decrease of the acc is  3.399908542633945e-05
+cur bit connection is  (22, 23)
+the decrease of the acc is  -0.00018500447273250842
+cur bit connection is  (22, 24)
+the decrease of the acc is  0.00017700076103210893
+cur bit connection is  (22, 25)
+the decrease of the acc is  0.0011880010366439597
+cur bit connection is  (22, 26)
+the decrease of the acc is  0.0007239979505538896
+cur bit connection is  (22, 27)
+the decrease of the acc is  -0.001535993218421905
+cur bit connection is  (22, 28)
+the decrease of the acc is  -4.7001242637567664e-05
+cur bit connection is  (22, 29)
+the decrease of the acc is  0.0003350007534027588
+cur bit connection is  (22, 30)
+the decrease of the acc is  1.6001462936343636e-05
+cur bit connection is  (22, 31)
+the decrease of the acc is  2.4001002311702102e-05
+cur bit connection is  (23, 24)
+the decrease of the acc is  0.0006399995088576249
+cur bit connection is  (23, 25)
+the decrease of the acc is  0.00141099691390989
+cur bit connection is  (23, 26)
+the decrease of the acc is  0.0009720015525818138
+cur bit connection is  (23, 27)
+the decrease of the acc is  0.0003089988231659291
+cur bit connection is  (23, 28)
+the decrease of the acc is  0.0009969979524612205
+cur bit connection is  (23, 29)
+the decrease of the acc is  0.0001970016956329701
+cur bit connection is  (23, 30)
+the decrease of the acc is  0.0005539971590041715
+cur bit connection is  (23, 31)
+the decrease of the acc is  1.6998648643462566e-05
+cur bit connection is  (24, 25)
+the decrease of the acc is  0.0059640002250671564
+cur bit connection is  (24, 26)
+the decrease of the acc is  0.0027940034866332786
+cur bit connection is  (24, 27)
+the decrease of the acc is  0.004990003108978236
+cur bit connection is  (24, 28)
+the decrease of the acc is  0.003662000894546491
+cur bit connection is  (24, 29)
+the decrease of the acc is  0.0015199965238570368
+cur bit connection is  (24, 30)
+the decrease of the acc is  0.001241999268531857
+cur bit connection is  (24, 31)
+the decrease of the acc is  -7.70002603531772e-05
+cur bit connection is  (25, 26)
+the decrease of the acc is  0.03460700333118438
+cur bit connection is  (25, 27)
+the decrease of the acc is  0.02274500370025634
+cur bit connection is  (25, 28)
+the decrease of the acc is  0.025667998790740998
+cur bit connection is  (25, 29)
+the decrease of the acc is  0.012811995744705151
+cur bit connection is  (25, 30)
+the decrease of the acc is  0.00749899983406066
+cur bit connection is  (25, 31)
+the decrease of the acc is  5.8999657630898206e-05
+cur bit connection is  (26, 27)
+the decrease of the acc is  0.05274799466133118
+cur bit connection is  (26, 28)
+the decrease of the acc is  0.048943002223968524
+cur bit connection is  (26, 29)
+the decrease of the acc is  0.032259002327919006
+cur bit connection is  (26, 30)
+the decrease of the acc is  0.01995700001716605
+cur bit connection is  (26, 31)
+the decrease of the acc is  5.7994127273586216e-05
+cur bit connection is  (27, 28)
+the decrease of the acc is  0.0677169972658157
+cur bit connection is  (27, 29)
+the decrease of the acc is  0.044026997089386066
+cur bit connection is  (27, 30)
+the decrease of the acc is  0.03762600123882298
+cur bit connection is  (27, 31)
+the decrease of the acc is  7.600009441377509e-05
+cur bit connection is  (28, 29)
+the decrease of the acc is  0.0454559993743896
+cur bit connection is  (28, 30)
+the decrease of the acc is  0.047468997836112914
+cur bit connection is  (28, 31)
+the decrease of the acc is  3.500223159780269e-05
+cur bit connection is  (29, 30)
+the decrease of the acc is  0.03746500015258791
+cur bit connection is  (29, 31)
+the decrease of the acc is  -1.400113105765044e-05
+cur bit connection is  (30, 31)
+the decrease of the acc is  3.299891948704836e-05
+
+Process finished with exit code 0
